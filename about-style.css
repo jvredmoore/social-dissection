@@ -1,0 +1,88 @@
+/* General Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Main Content Styles */
+  
+  .hero {
+    padding: 50px;
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  .cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #eee;
+  }
+  
+  h3 {
+    margin: 0 0 20px
+  
